@@ -1,0 +1,49 @@
+'''
+Convertir un arbol a binario
+'''
+def __init__(self,edad)
+    self.nombre
+    self.edad
+    self.mayor = []
+    self.menor = []
+
+def agregar(self,persona)
+    edad = persona.edad
+    if edad > self.edad:
+    if self.mayor == []
+    self.mayor = persona
+        else:
+    self.mayor.agregar(persona)
+        else:
+    if self.menor == []
+    self.menor = persona
+        else:
+    self.menor.agregar(persona)
+'''
+Para balanear un arbol, este se debe convertir en una lista de caracteres y dividir esa lista por la mitad
+'''
+
+'''
+Busqueda segun la edad
+'''
+def busqueda_bin(self,edad)
+    if self.edad == edad
+        return self
+    elif:
+        edad > self.edad
+        return self.mayores.busqueda_bin(edad)
+    elif:
+        edad < elff.edad
+        return self.menores.busqueda_bin(edad)
+    else:
+        return null
+'''
+Busqueda segun el nombre
+'''
+def busqueda_nombre(self,nombre)
+    l = tr2list(self)
+    for i in l
+        if persona.nombreequals(nombre)
+            return persona
+        elif:
+            return null
