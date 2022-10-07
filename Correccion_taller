@@ -1,0 +1,87 @@
+class persona (object):
+    def __init__(self):
+        self.nombre = nombre
+        self.Hermanos = hermanos
+        self.Padres = padres
+
+    def add_sibilings (self,sib,nombre,hermanos,padres)
+        self.hermanos.append(sib)
+        self.add_parents(self,padres(0))
+        self.add_parents(self,padres(1))
+
+    def add_parents (self,parent):
+        if self.Padres < 2:
+            self.Padres.append(parent)
+        else:
+            print('No se puede agregar')
+'''
+Busqueda de cualquier persona en el arbol 
+'''
+    def search(self,nombre):
+        if self.nombre.equals(nombre):
+            return self
+        else:
+            A = busqueda_secuencial(nombre,self.hermanos)
+            if A != null
+                return A
+            else:
+            return self.padres(0).search(nombre)
+'''
+Convertir el arbol en un diccionario 
+'''
+def tr2list(self,lista):
+    list = []
+    t = self
+    t.padres = []
+    t.hermanos = []
+    list.append(t)
+    list.append(self.hermanos)
+    l_p0 = tr2list(self.padres(0))
+    l_p1 = tr2list(self.padres(1))
+    l_p1 = '    '
+    list.append(l_p0)
+    list.append(l_p1)
+    return list
+tr2list(t,list)
+for list in d:
+    d = dict(list)
+'''
+Encriptacion
+'''
+def encript(self,nombre)
+    self.nombre_01 = nombre
+    en = self.nombre_01+'.txt'
+    print(en)
+    whith open(en,'a') as file:
+    file.write('\n'+self.nombre)
+    file.write('\n' + self.padres)
+    file.write('\n' + self.hermanos)
+'''
+Desencriptacion
+'''
+def descrip(self,nombre):
+    self.nombre_01 = nombre
+    en = self.nombre_01+'.txt'
+    file = open(en, 'arbolencriptado', encoding = 'utf-8')
+    print(file.read())
+    print('')
+    return print('arbol creado')
+'''
+Agregar personas al arbol
+'''
+arbol.agregar("Julio")
+arbol.agregar("Stella")
+arbol.agregar("Pipe")
+arbol.agregar("Julian")
+arbol.agregar("alisson")
+
+arbol.preorden()
+arbol.inorden()
+arbol.postorden()
+
+busqueda = input("Busca algo en el árbol: ")
+nodo = arbol.buscar(busqueda)
+if nodo is None:
+    print(f"{busqueda} no existe")
+else:
+    print(f"{busqueda} sí existe")
